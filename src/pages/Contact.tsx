@@ -8,19 +8,19 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Phone",
-    details: ["+91 12345 67890", "+91 98765 43210"],
-    action: { label: "Call Now", href: "tel:+911234567890" },
+    details: ["+91 7902316091"],
+    action: { label: "Call Now", href: "tel:+917902316091" },
   },
   {
     icon: Mail,
     title: "Email",
-    details: ["hello@pathup.in", "support@pathup.in"],
-    action: { label: "Send Email", href: "mailto:hello@pathup.in" },
+    details: ["pathup.edu@gmail.com", "support@pathup.in"],
+    action: { label: "Send Email", href: "mailto:pathup.edu@gmail.com" },
   },
   {
     icon: MapPin,
     title: "Address",
-    details: ["123 Education Street", "Knowledge City, India - 123456"],
+    details: ["216 piravom", "Erankulam, India - 623800"],
     action: null,
   },
   {
@@ -32,7 +32,7 @@ const contactInfo = [
 ];
 
 const Contact = () => {
-  const whatsappNumber = "911234567890";
+  const whatsappNumber = "+91 7902316091";
   const whatsappMessage = encodeURIComponent("Hi! I'm interested in career counseling from Path Up.");
 
   return (
